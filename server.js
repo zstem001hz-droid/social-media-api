@@ -12,6 +12,8 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 
 // Databases
+const uri = process.env.MONGO_URI;
+const client = new MongoClient(uri);
 
 // Routes
 
