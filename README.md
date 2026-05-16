@@ -5,6 +5,7 @@ A Node.js/Express application connecting to a MongoDB Atlas cluster.
 ---
 
 ## Tech Stack
+
 - Node.js
 - Express
 - MongoDB Node.js Driver
@@ -28,10 +29,12 @@ social-media-api/
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js
 - MongoDB Atlas account
 
 ### Installation
+
 1. Clone the repository
 2. Run `npm install`
 3. Create a `.env` file using `.env.example` as a template
@@ -42,16 +45,14 @@ social-media-api/
 
 ## Environment Variables
 
-| Variable | Description |
-|----------|-------------|
+| Variable  | Description                     |
+| --------- | ------------------------------- |
 | MONGO_URI | MongoDB Atlas connection string |
 
 ---
 
 ## API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | / | Verifies database connection |
-
-> 🚧 Work in progress
+| Method | Endpoint | Description                  |
+| ------ | -------- | ---------------------------- |
+| GET    | /        | Verifies database connection |
